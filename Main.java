@@ -27,7 +27,7 @@ public class Main extends Application {
 			
 			Scene scene = new Scene(grid,400,400);
 			
-			Label etiqueta = new Label("Número");
+			Label etiqueta = new Label("NÃºmero");
 			grid.add(etiqueta, 0, 1);
 			
 			TextField numero = new TextField();
@@ -56,8 +56,6 @@ public class Main extends Application {
 			
 			Label resultado = new Label();
 			grid.add(resultado, 2, 1);
-			
-			
 			
 			scene.getStylesheets().add(getClass().getResource("application.css").toExternalForm());
 			primaryStage.setScene(scene);
